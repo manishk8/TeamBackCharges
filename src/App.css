@@ -1,0 +1,28 @@
+:root {
+  --greenText: #a4b32e;
+  --greenBgColor: #043825;
+  --greenBgDark: #002518;
+  --blueColor: #3cacde;
+}
+
+/* common css */
+.nowrapText {white-space: nowrap;}
+.overflowText {white-space: nowrap; text-overflow: ellipsis; overflow: hidden; width: 200px;}
+.addressWrap {max-width: 20%;}
+.greenText {color: var(--greenText);}
+
+
+.layout {display: flex; flex-direction: column; height: 100vh;}
+.content {display: flex; flex: 1;}
+.sidenav {
+    width: 200px; 
+    display: flex;
+}
+.wrapper {display: flex; flex: 1; overflow-y: auto; height: calc(100vh - 106px);}
+.inner-content {display: flex; flex: 1; flex-direction: column;}
+
+@media screen and (min-width: 576px) {
+  .addressWrap {
+  max-width: auto;
+  }
+}

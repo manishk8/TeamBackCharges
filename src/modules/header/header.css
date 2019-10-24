@@ -1,0 +1,41 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #064631;
+    padding: 0 24px;
+}
+.logo-block {
+    display: none;
+    align-items: center;
+}
+.logo-block h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+.login-profile {
+    display: flex;
+    align-items: center;
+}
+.btn-orange {
+    background-color: #f89133;
+    color: #ffffff;
+    font-size: 14px;
+}
+.btn-orange span {margin: 0 8px;}
+.btn-orange img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+.humburger {display: flex; justify-content: center; align-items: center; margin-right: 24px;}
+.humburger img {filter: invert(1);}
+
+@media screen and (min-width: 576px) {
+    .header {padding: 0 40px; height: 106px;}
+    .humburger {display: none;}
+    .logo-block {display: flex;}
+    .btn-orange { font-size: 14px;}
+  }

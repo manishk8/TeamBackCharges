@@ -1,0 +1,19 @@
+.top-block {display: flex; padding: 16px 24px; justify-content: space-between}
+.filter-block {display: flex; align-items: center;}
+.export-block {display: flex;align-items: center; justify-content: space-between;}
+.btn-select {border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 4px; margin-left: 16px; box-sizing: border-box; height: 38px;}
+.serach-block {display: flex; position: relative;}
+.serach-block img {right: 10px; position: absolute; top: 8px; }
+.blueBlock {width: 20px; height: 20px; background-color: #3cacde;margin-right: 8px;}
+.grayBlock {width: 20px; height: 20px; background-color: #b7b7b7; margin-right: 8px;}
+.exportGreen {background-color: #064631; width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 8px;}
+.exportGreen > img {filter: invert(1);}
+.export-block > .row {display: flex; flex: 1;}
+.export-block > .row > div {display: flex; align-items: center;}
+.exportBtn {justify-content: flex-start;}
+.newType {background-color: #43acde;width: 20px;}
+.oldType {background-color: #b7b7b7;width: 20px;}
+
+@media screen and (min-width: 576px) {
+    .exportBtn {justify-content: flex-end;}
+  }
